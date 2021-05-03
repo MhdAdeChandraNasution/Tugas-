@@ -27,15 +27,15 @@ class TARIFWARNET{
 }
 
 // class Warnet
-class Pangkas extends StatefulWidget {
+class Warnet extends StatefulWidget {
   _MyappState createState() => _MyappState();
 }
 
 class _MyappState extends State<Warnet> {
   //deklarasi variabel
-  final txtfacial = TextEditingController();
-  final txtcreambath = TextEditingController();
-  final txtkomplit = TextEditingController();
+  final txtmurah = TextEditingController();
+  final txtnormal = TextEditingController();
+  final txtmahal = TextEditingController();
   
 
   List<Widget> data = [];
